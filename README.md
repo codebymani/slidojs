@@ -1,6 +1,6 @@
 # slido.js
-slido is a lightweight weight minimalistic image slider with no dependencies and no styling required.
-<p>Build Size: 5.64KB (minified) and 1.67KB (gzip)</p>
+<p>slido is a lightweight weight minimalistic image slider with no dependencies and no styling required.</p>
+<p>Bundle Size: 5.64KB (minified) and 1.67KB (gzip)</p>
 
 <p align="center">
   <img  src="assets/demo.gif">
