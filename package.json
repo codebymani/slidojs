@@ -4,7 +4,7 @@
   "description": "A light weight minimalistic image slider.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack && cp dist/slido.min.js assets"
+    "build": "webpack"
   },
   "files": [
     "dist"
