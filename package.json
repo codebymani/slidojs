@@ -1,0 +1,35 @@
+{
+  "name": "slidojs",
+  "version": "1.0.0",
+  "description": "A light weight minimalistic image slider.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack && cp dist/slido.min.js assets"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebymani/slidojs.git"
+  },
+  "keywords": [
+    "carousel",
+    "slider",
+    "image-slider",
+    "light-weight",
+    "tiny-slider"
+  ],
+  "author": "Manipal Reddy Sunkireddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codebymani/slidojs/issues"
+  },
+  "homepage": "https://github.com/codebymani/slidojs#readme",
+  "devDependencies": {
+    "compression-webpack-plugin": "^4.0.0",
+    "terser-webpack-plugin": "^3.0.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
