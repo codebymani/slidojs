@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    height: 150px;
+    padding: 60px 60px 0px 60px;
+}
+
+.caption {
+    font-size: 14px;
+    color: #fff;
+    padding: 20px;
+}
+
+.actions {
+    margin: 20px;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.ui-btn {
+    margin: 20px;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+    background-color: #F74543;
+    color: #fff;
+    border-radius: 4px;
+    width: 130px;
+}
