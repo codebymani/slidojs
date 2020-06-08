@@ -11,6 +11,9 @@ slido is a lightweight weight minimalistic image slider with no dependencies and
 
 Injecting minified script directly to the browser as 5.64KB (minified) and 1.67KB (GZipped)
 ```javascript
+  
+  <div id="slido-demo"></div>
+  
   <script src="slido.min.js"></script>
   <script>
     window.onload = function(){
