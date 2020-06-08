@@ -1,4 +1,4 @@
-# slidojs
+# slido.js
 Slido Js is a lightweight weight minimalistic image slider with no dependencies and no styling required. 
 <p align="center">
   <img  src="assets/demo.gif">
