@@ -9,7 +9,7 @@ slido is a lightweight weight minimalistic image slider with no dependencies and
 - [Download the latest release.](https://github.com/codebymani/slidojs/archive/master.zip)
 - Clone the repo: `git clone https://github.com/codebymani/slidojs.git`
 
-Injecting minified script directly to the browser as 5.64KB (minified) and 1.67KB (GZipped)
+Injecting minified script directly to the browser as 5.64KB (minified) and 1.67KB (gzip)
 ```javascript
   
   <div id="slido-demo"></div>
