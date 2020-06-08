@@ -1,5 +1,5 @@
 # slidojs
-Slido Js is a lightweight weight minimalistic image slider with no dependencies and no styling. 
+Slido Js is a lightweight weight minimalistic image slider with no dependencies and no styling required. 
 
 ### Installation
 - [Download the latest release.](https://github.com/codebymani/slidojs/archive/master.zip)
