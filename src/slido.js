@@ -1,6 +1,5 @@
-var slido = (function(d){
+window.slido = (function(d){
     return function (config) {
-        
         /* to save the instance creating new unique id while initialising */
         var _id;
 
@@ -25,7 +24,7 @@ var slido = (function(d){
 
          /* create style element and attach to dom */
         function addCss(rule) {
-            let css = document.createElement('style');
+            var css = document.createElement('style');
             css.type = 'text/css';
             if (css.styleSheet) css.styleSheet.cssText = rule; // Support for IE
             else css.appendChild(document.createTextNode(rule)); // Support for the rest
@@ -91,8 +90,7 @@ var slido = (function(d){
         }
 
         function buildCSS() {
-            var css = `
-                .slido-main-${_id}{
+            var css = `.slido-main-${_id}{
                     --toffset: 0px;
                     --slido-width: 600px;
                     --slido-height: 600px;                    
@@ -162,8 +160,7 @@ var slido = (function(d){
         }
 
         function buildDOM(){
-            var html = `
-                <div data-carousel-${_id} class="slido-main-${_id}">
+            var html = `<div data-carousel-${_id} class="slido-main-${_id}">
                     <div class="img-list">
                     ${images.map(function(image){
                         return `<img data-slido-img-${_id} src="${image}">`;
@@ -173,8 +170,7 @@ var slido = (function(d){
                         <button data-slido-action-${_id}="left" class="slido-arrow-btn left-btn"></button>
                         <button data-slido-action-${_id}="right" class="slido-arrow-btn right-btn"></button>
                     </div>
-                </div>
-            `;
+                </div>`;
             mountElement.innerHTML = html;
         }
 
