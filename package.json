@@ -1,8 +1,8 @@
 {
   "name": "slidojs",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A light weight minimalistic image slider.",
-  "main": "index.js",
+  "main": "dist/slido.min.js",
   "scripts": {
     "build": "webpack"
   },

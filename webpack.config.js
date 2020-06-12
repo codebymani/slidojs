@@ -8,9 +8,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'slido.min.js',
-    library: 'Slido',
     libraryTarget: 'umd',
-    umdNamedDefine: true
   },
   plugins: [new CompressionPlugin({
     test: /\.js(\?.*)?$/i,

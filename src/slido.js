@@ -1,4 +1,4 @@
-window.slido = (function(d){
+module.exports.slido =  (function(d){
     return function (config) {
         /* to save the instance creating new unique id while initialising */
         var _id;
